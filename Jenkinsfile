@@ -4,7 +4,7 @@ pipeline {
     stage('Test Stage') {
       agent {
         docker {
-          image 'angular/ngcontainer:latest'
+          image 'node:current-alpine'
         }
 
       }
