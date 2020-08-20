@@ -10,7 +10,9 @@ pipeline {
       }
       steps {
         sh '''echo \'hello world\'
-ls'''
+cd veggie-list
+npm install
+npm run build'''
       }
     }
 
